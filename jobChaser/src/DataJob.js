@@ -16,7 +16,7 @@ export default [
         title: "Frontend Developer",
         type: "Full time",
         location: "In-office",
-        experience: "Fresher",
+        experience: "Internship",
         company: "Amazon",
         skills: ["Javascript", "Nextjs", "Tailwind CSS"],
         job_link: "https://www.amazon.jobs/en/",

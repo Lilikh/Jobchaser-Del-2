@@ -1,6 +1,19 @@
 
-import { useState } from 'react'
 import dayjs from 'dayjs'
+import PropTypes from 'prop-types';
+
+
+JobCard.propTypes = {
+    postedOn: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    company: PropTypes.string.isRequired,
+    type: PropTypes.string.isRequired,
+    experience: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
+    skills: PropTypes.arrayOf(PropTypes.string).isRequired,
+    job_link: PropTypes.string.isRequired,
+  };
+  
 
 function JobCard(props) {
     // const skills = ["Javascript", "React", "Nodejs"];
